@@ -1,0 +1,65 @@
+/*=============================================
+=                   Mixins                   =
+=============================================*/
+
+@mixin tables {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}
+
+@mixin margin-top($space-size) {
+  margin-top: $space-size;
+}
+@mixin margin-bottom($space-size) {
+  margin-bottom: $space-size;
+}
+@mixin margin-left($space-size) {
+  margin-left: $space-size;
+}
+@mixin margin-right($space-size) {
+  margin-right: $space-size;
+}
+
+@mixin margin-y($space-size) {
+  margin-top: $space-size;
+  margin-bottom: $space-size;
+}
+@mixin margin-x($space-size) {
+  margin-left: $space-size;
+  margin-right: $space-size;
+}
+
+@mixin padding-top($space-size) {
+  padding-top: $space-size;
+}
+@mixin padding-bottom($space-size) {
+  padding-bottom: $space-size;
+}
+@mixin padding-left($space-size) {
+  padding-left: $space-size;
+}
+@mixin margin-right($space-size) {
+  padding-right: $space-size;
+}
+
+@mixin padding-x($space-size) {
+  padding-left: $space-size;
+  padding-right: $space-size;
+}
+@mixin margin-y($space-size) {
+  padding-top: $space-size;
+  padding-bottom: $space-size;
+}

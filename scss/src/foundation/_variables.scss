@@ -6,18 +6,21 @@
 * Table of contents
 *
 * COLORS
-* Brand colors ......... Used for brand colors
-* Neutral colors ....... White, black and grey colors
-* Utility colors ....... Other colors to represent states, alert, danger, success etc.
+* Brand colors .................. Used for brand colors
+* Neutral colors ................ White, black and grey colors
+* Utility colors ................ Other colors to represent states, alert, danger, success etc.
 *
 * TYPOGRAPHY 
-* Font families ........ Fonts used in design system
-* Font weights ......... Font weights
-* Sizes ................ Font sizing for body text, paragraphs, inputs
-* Heading sizes ........ Font sizing for page heading
+* Font families ................. Fonts used in design system
+* Font weights .................. Font weights
+* Sizes ......................... Font sizing for body text, paragraphs, inputs
+* Heading sizes ................. Font sizing for page heading
 *
 * BREAKPOINTS 
-* Breakpoints .......... Global responsive breakpoints definitions
+* Breakpoints ................... Global responsive breakpoints definitions
+*
+* SPACING
+* Spacing ....................... Global set of spacing values
 *
 */
 
@@ -36,7 +39,7 @@ $dark-light: #737680;
 $gray: #a3a5ad;
 $gray-light: #bebfc4;
 
-$white: #ffffff;
+$white: #fff;
 $white-dark: #f1f2f3;
 
 /* Utility colors */
@@ -106,5 +109,32 @@ $breakpoints: (
 );
 
 /*=====  End of BREAKPOINTS  ======*/
+
+/*=============================================
+=            SPACING            =
+=============================================*/
+
+/*=====  End of SPACING  ======*/
+
+$spacing: (
+  xxxs: 0.25rem,
+  // 4px
+  xxs: 0.5rem,
+  // 8px
+  xs: 0.75rem,
+  // 12px
+  sm: 1rem,
+  // 16px
+  md: 1.5rem,
+  // 24px
+  1g: 2rem,
+  // 32px
+  xl: 3rem,
+  // 48px
+  xxl: 4.5rem,
+  // 72px
+  xxxl: 6rem,
+  // 96px
+) !default;
 
 /*=====  End of Variables  ======*/
