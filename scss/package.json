@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "stylelint ./**/*.scss",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "build": "node src/scripts/build.js"
   },
   "husky": {
     "hooks": {
@@ -16,7 +17,8 @@
     "*.scss": "yarn lint:fix"
   },
   "dependencies": {
-    "normalize-scss": "^7.0.1"
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.62.0"
   },
   "devDependencies": {
     "husky": "^8.0.3",

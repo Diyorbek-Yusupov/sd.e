@@ -1,0 +1,78 @@
+/*=============================================
+               Variables            
+=============================================*/
+/*
+* Table of contents
+*
+* COLORS
+* Brand colors .................. Used for brand colors
+* Neutral colors ................ White, black and grey colors
+* Utility colors ................ Other colors to represent states, alert, danger, success etc.
+*
+* TYPOGRAPHY 
+* Font families ................. Fonts used in design system
+* Font weights .................. Font weights
+* Sizes ......................... Font sizing for body text, paragraphs, inputs
+* Heading sizes ................. Font sizing for page heading
+*
+* BREAKPOINTS 
+* Breakpoints ................... Global responsive breakpoints definitions
+*
+* SPACING
+* Spacing ....................... Global set of spacing values
+*
+*/
+/*=============================================
+=                   COLORS                   =
+=============================================*/
+/* Brand colors */
+/* Neutral colors */
+/* Utility colors */
+/*=====  End of COLORS  ======*/
+/*=============================================
+=                 TYPOGRAPHY                 =
+=============================================*/
+/* 
+*  1) Playfair font, mostly for headings.
+*  https://fonts.google.com/specimen/Playfair+Display
+*
+*  2) The relaway font, mostly for body text.
+*  https://fonts.google.com/specimen/Raleway
+*
+*
+*/
+/* Font families */
+/* Font sizes */
+/* Heading font sizes */
+/* Font weights */
+/*=====  End of TYPOGRAPHY  ======*/
+/*=============================================
+=                 BREAKPOINTS                =
+=============================================*/
+/*=====  End of BREAKPOINTS  ======*/
+/*=============================================
+=            SPACING            =
+=============================================*/
+/*=====  End of SPACING  ======*/
+/*=====  End of Variables  ======*/
+/*=============================================
+=              Global text colors            =
+=============================================*/
+/*=============================================
+=                   Buttons                  =
+=============================================*/
+/*=============================================
+=                   Forms                    =
+=============================================*/
+/*=============================================
+=            Body font sizes                 =
+=============================================*/
+/*=============================================
+=            Heading font sizes              =
+=============================================*/
+/*=============================================
+=            Heading font weights            =
+=============================================*/
+/*=============================================
+=                   Mixins                   =
+=============================================*/
