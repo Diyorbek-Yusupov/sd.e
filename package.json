@@ -1,0 +1,19 @@
+{
+  "name": "@ds.e/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Diyorbek-Yusupov/sd.e.git",
+  "author": "diyorbek-yusupov <dyuzb2004@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "nohoist": "**/normalize-scss",
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
+}
